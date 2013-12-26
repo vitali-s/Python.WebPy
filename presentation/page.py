@@ -6,7 +6,7 @@ urls = (
  
 class index:
     def GET(self):
-        return "Hello, world!"
+        return "Hello, world! from python"
 
 def wsgiHandler():
     return web.application(urls, globals(), autoreload=False).wsgifunc()
