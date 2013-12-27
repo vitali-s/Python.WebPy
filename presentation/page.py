@@ -2,10 +2,12 @@ import web
  
 urls = (
     '/', 'index'
+    '/signin/', 'signin',
+    '/signoff/', 'signoff',
 )
  
 class index:
-    def GET(self):
+    def get(self):
         return "Hello, world! from python"
 
 def wsgiHandler():
