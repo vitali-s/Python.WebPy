@@ -1,5 +1,5 @@
-import web
 import routing
+import web
 
 
 def wsgiHandler():
