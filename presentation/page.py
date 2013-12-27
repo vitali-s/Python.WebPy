@@ -2,8 +2,6 @@ import web
  
 urls = (
     '/', 'index'
-    '/signin/', 'signin',
-    '/signoff/', 'signoff',
 )
  
 class index:
