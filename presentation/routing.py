@@ -1,5 +1,5 @@
 urls = (
-    '/', 'controllers.default.index',
-    '/signin', 'controllers.signin.index',
-    '/signoff', 'controllers.signoff.index'
+    '/', 'presentation.controllers.default.index',
+    '/signin', 'presentation.controllers.signin.index',
+    '/signoff', 'presentation.controllers.signoff.index'
 )
