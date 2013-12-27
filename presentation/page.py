@@ -5,7 +5,7 @@ urls = (
 )
  
 class index:
-    def get(self):
+    def GET(self):
         return "Hello, world! from python"
 
 def wsgiHandler():
