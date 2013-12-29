@@ -1,7 +1,6 @@
 import routing
 import web
 
-
 def wsgiHandler():
     return web.application(routing.urls, globals(), autoreload=False).wsgifunc()
 
