@@ -1,7 +1,7 @@
 import routing
 import web
 
-def wsgiHandler():
+def wsgi():
     return web.application(routing.urls, globals(), autoreload=False).wsgifunc()
 
 if __name__ == "__main__":

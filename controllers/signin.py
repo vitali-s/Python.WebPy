@@ -1,3 +1,4 @@
+import routes
 import web
 
 
@@ -6,5 +7,5 @@ class index:
         return web.template.render('views', base='layout').signin([])
 
     def POST(self):
-        return "Signed in"
+        return web.seeother(routes.home)
 

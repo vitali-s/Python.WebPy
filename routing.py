@@ -1,5 +1,10 @@
+import routes
+
+# controllers_module = controllers.{0}.
+
 urls = (
-    '/', 'controllers.default.index',
-    '/signin', 'controllers.signin.index',
-    '/signoff', 'controllers.signoff.index'
+    routes.default, 'controllers.signin.index',
+    routes.signin, 'controllers.signin.index',
+    routes.signoff, 'controllers.signoff.index',
+    routes.home, 'controllers.home.index'
 )

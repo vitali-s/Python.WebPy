@@ -1,6 +1,7 @@
+import routes
 import web
 
 
-class index:
+class index(object):
     def GET(self):
-        return "Sign off page"
+        return web.seeother(routes.default)
